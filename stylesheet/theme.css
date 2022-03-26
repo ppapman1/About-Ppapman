@@ -1,0 +1,39 @@
+body.dark {
+  --background-color: rgb(24, 25, 36);
+  --translucent-background-color: rgba(0, 0, 0, 0.5);
+  --normal-text-color: rgba(255, 255, 255, 0.87);
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
+  --disabled-text-color: rgba(255, 255, 255, 0.38);
+  --link-color: rgb(241, 250, 140);
+  --scroll-bar-color: rgba(255, 255, 255, 0.3);
+  --hover-button-color: rgba(255, 255, 255, 0.1);
+  --active-button-color: rgba(255, 255, 255, 0.3);
+  --loading-image-color: rgba(255, 255, 255, 0.3);
+  --section-title-background-color: rgb(59, 72, 100);
+  --a-deco-background-color: rgba(91, 151, 255, 0.35);
+  --border-color: rgba(255, 255, 255, 0.15);
+}
+
+body.light {
+  --background-color: rgb(255, 255, 255);
+  --translucent-background-color: rgba(255, 255, 255, 0.5);
+  --normal-text-color: rgba(0, 0, 0, 0.87);
+  --secondary-text-color: rgba(0, 0, 0, 0.6);
+  --disabled-text-color: rgba(0, 0, 0, 0.38);
+  --link-color: rgb(246, 255, 152);
+  --scroll-bar-color: rgba(0, 0, 0, 0.3);
+  --hover-button-color: rgba(0, 0, 0, 0.1);
+  --active-button-color: rgba(0, 0, 0, 0.3);
+  --loading-image-color: rgba(0, 0, 0, 0.3);
+  --section-title-background-color: rgb(197, 197, 255);
+  --a-deco-background-color: rgba(116, 177, 255, 0.2);
+  --border-color: rgba(0, 0, 0, 0.2);
+}
+
+body.dark img {
+  filter: brightness(0.8);
+}
+
+body.dark img.icon {
+  filter: invert(1);
+}

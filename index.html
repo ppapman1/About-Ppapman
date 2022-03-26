@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The rule for the ADOFAI.gg community" />
+    <meta name="author" content="ADOFAI.gg" />
+    <meta name="og:type" content="website" />
+    <meta name="og:title" content="ADOFAI.gg Community Rules" />
+    <meta
+      name="og:description"
+      content="The rule for the ADOFAI.gg community"
+    />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://api.iconify.design/twemoji/page-with-curl.svg"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="stylesheet/theme.css" />
+    <link rel="stylesheet" href="stylesheet/index.css" />
+
+    <title data-detect="header.title">ADOFAI.gg Community Rules</title>
+
+    <!-- Scripts -->
+
+    <script src="library/jquery-3.6.0.min.js"></script>
+    <script src="script/theme.js" type="module"></script>
+    <!-- <script src="script/component.js" type="module"></script> -->
+    <script src="script/language.js" type="module"></script>
+  </head>
+
+  <body>
+    <noscript>
+      JavaScript is disabled. Please enable JavaScript.<br />자바스크립트가 꺼져
+      있습니다. 자바스크립트를 활성화해 주세요.
+    </noscript>
+
+    <div id="loading">
+      <div>Loading…</div>
+    </div>
+
+    <header>
+      <div id="ppapman-info">
+        <img
+          src="https://avatars.githubusercontent.com/u/48434316"
+          alt="ppapman avatar"
+          id="ppapman-avatar"
+        />
+
+        <div id="title">
+          <h1 data-detect="header.title"></h1>
+          <div id="twitter">
+            <a href="https://twitter.com/_pam_an_p____p">
+              <img src="/images/TwitterIcon.svg" class="icon" alt="" />
+              @_pam_an_p____p
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="settings-container">
+        <button
+          title="Click to change the theme to dark mode"
+          class="setting-button show-light-only"
+          data-detect="header.changeThemeDark"
+          onclick="window.changeTheme('dark')"
+        ></button>
+
+        <button
+          title="Click to change the theme to light mode"
+          class="setting-button show-dark-only"
+          data-detect="header.changeThemeLight"
+          onclick="window.changeTheme('light')"
+        ></button>
+
+        <button
+          title="Click to change the language"
+          class="setting-button"
+          data-detect="header.langChange"
+          onclick="window.getLanguage() === 'ko-KR' ? window.setLanguage('ja-JP') : window.setLanguage('ko-KR')"
+        ></button>
+      </div>
+    </header>
+
+    <div id="fullpage">
+      <div class="section">Some section</div>
+      <div class="section">Some section</div>
+      <div class="section">Some section</div>
+      <div class="section">Some section</div>
+    </div>
+
+    <!-- <main id="main-first">
+      <div></div>
+
+      <div>ppapman 님 번역해 주세요</div>
+
+      <div></div>
+    </main>
+
+    <main id="main-second">
+      <section id="index-section">
+        <h2 class="section-title" data-detect="index.title"></h2>
+
+        <div class="section-content">
+          <ul>
+            <li data-detect="content.fe.title"></li>
+            <li data-detect="content.ux.title"></li>
+            <li data-detect="content.tr.title"></li>
+            <li data-detect="content.ed.title"></li>
+            <li data-detect="content.ut.title"></li>
+            <li data-detect="content.fe.title"></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="content-section">
+        <h2 class="section-title" data-detect="content.fe.title"></h2>
+
+        <div class="section-content">
+          <span data-detect="content.fe.title"></span>
+          <span data-detect="content.fe.title"></span>
+          <span data-detect="content.fe.title"></span>
+          <span data-detect="content.fe.title"></span>
+          <span data-detect="content.fe.title"></span>
+          <span data-detect="content.fe.title"></span>
+        </div>
+      </section>
+    </main> -->
+
+    <link rel="stylesheet" type="text/css" href="stylesheet/fullpage.min.css" />
+    <script src="library/fullpage.min.js" type="module"></script>
+    <script src="script/scroll.js" type="module"></script>
+  </body>
+</html>
