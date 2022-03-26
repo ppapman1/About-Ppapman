@@ -1,8 +1,8 @@
-$(document).ready(() => {
-  $("#fullpage").fullpage({
-    autoScrolling: true,
-    scrollHorizontally: true,
-  });
+// $(document).ready(() => {
+//   $("#fullpage").fullpage({
+//     autoScrolling: true,
+//     scrollHorizontally: true,
+//   });
 
-  $.fn.fullpage.setAllowScrolling(false);
-});
+//   $.fn.fullpage.setAllowScrolling(false);
+// });
